@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Portfolio</title>
+    <!-- Link to CSS file, same file will apply to all three different pages -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<!-- This will be my title/logo for the portfolio containing my name and links to my contact, about me, and portfolio -->
+<body>
+    <header>
+        <div class="pheader">
+            <div id="name">Steven Ferreira</div>
+
+            <nav>
+                <a href="index.html" class="pborder">About</a>
+                <a href="portfolio.html" class="pborder">Portfolio</a>
+                <a href="contact.html" class="pborder">Contact</a>
+            </nav>
+        </div>
+    </header>
+<!-- Here we're using a section to hold my different contact methods, all help within a form element -->
+    <section id="contact">
+        <h1>Contact</h1>
+
+        <form>
+            <div id="contact-name">
+                <label for="name">Name</label>
+                <br>
+                <input type="text" id="name-contact" name="user-name" class="my-text">
+            </div>
+
+            <div id="email">
+                <label for="mail">Email</label>
+                <br>
+                <input type="email" id="mail" name="user-email" class="my-text">
+            </div>
+
+            <div id="message">
+                <label for="msg">Message</label>
+                <br>
+                <textarea id="msg" name="user-message" class="my-msg"></textarea>
+            </div>
+        </form>
+    </section>
+<!-- This will be my footer containing my copyright -->
+    <footer>
+        Copyright &#169;
+    </footer>
+</body>
+</html>
